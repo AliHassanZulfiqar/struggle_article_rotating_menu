@@ -12,6 +12,20 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h1, h2, h3 {
+  color: #2071b2;
+  transition: all 0.4s ease-in-out;
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: #00d16c;
+  cursor: pointer;
+}
+
 .container {
   background-color: #fafafa;
   transform-origin: top left;
